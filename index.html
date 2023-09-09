@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <audio id="clickSound" src="click.mp3"></audio>
+
+   
+    <title>Cricket Tournament</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>Gaira Premier League</h1>
+    </header>
+
+<main>
+    <section class="group" id="group-a">
+        <h2 style="color: #ffff;">Group A</h2>
+        <div class="matches">
+            <!-- Add match items for Group A here -->
+        </div>
+    </section>
+
+    <section class="group" id="group-b">
+        <h2 style="color: #ffff;">Group B</h2>
+        <div class="matches">
+            <!-- Add match items for Group B here -->
+        </div>
+    </section>
+</main>
+
+
+<!-- Modal for displaying match details -->
+<div id="match-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Match Details</h2>
+        <div id="match-details"></div>
+    </div>
+</div>
+    
+    <footer>
+        <p>&copy; 2023 Cricket Tournament</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+ </   
+</body>
+</html>
